@@ -1,0 +1,27 @@
+{
+  "name": "is-in-view",
+  "description": "tiny function to check if a given element is in the current viewport",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "author": "fbosch",
+  "repository": "fbosch/is-in-view",
+  "keywords": [
+    "element", "viewport", "web"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "compile": "babel src --out-dir lib",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "prepublish": "npm run compile",
+    "test": "babel-node ./node_modules/.bin/isparta cover _mocha"
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-preset-es2015-node4": "*",
+    "coveralls": "*",
+    "chai": "*",
+    "isparta": "*",
+    "mocha": "*",
+    "sinon": "*"
+  }
+}
