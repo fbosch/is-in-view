@@ -1,12 +1,14 @@
 {
   "name": "is-in-view",
   "description": "tiny function to check if a given element is in the current viewport",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "author": "fbosch",
   "repository": "fbosch/is-in-view",
   "keywords": [
-    "element", "viewport", "web"
+    "element",
+    "viewport",
+    "web"
   ],
   "license": "MIT",
   "scripts": {
@@ -18,10 +20,11 @@
   "devDependencies": {
     "babel-cli": "*",
     "babel-preset-es2015-node4": "*",
-    "coveralls": "*",
     "chai": "*",
+    "coveralls": "*",
     "isparta": "*",
     "mocha": "*",
     "sinon": "*"
-  }
+  },
+  "dependencies": {}
 }
